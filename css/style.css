@@ -1,5 +1,10 @@
+*{
+  padding-left: 10px;
+}
+
 h2 {
   color: blue;
+  text-decoration: underline;
 }
 
 a {
