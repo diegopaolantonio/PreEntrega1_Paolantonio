@@ -1,4 +1,4 @@
-alert("Cotizador de costo mensual de mano de obra");
+alert("Cotizador de costo mensual de mano de obra de EXPERTO INGENIERIA");
 
 let seguir = true;
 let trabajo = 0;
@@ -108,7 +108,7 @@ if (trabajo != 4) {
       );
     } while (controlarNumero(dias));
 
-    dias = dias * 22;
+    dias = dias * 24;
   }
 
   do {
@@ -116,6 +116,8 @@ if (trabajo != 4) {
   } while (controlarNumero(horas));
 
   costo = dias * precio * cantidad * horas;
+
+  alert ("Costo total: USD " + costo);
 }
 
 console.log("Cantidad de personas: " + cantidad);
